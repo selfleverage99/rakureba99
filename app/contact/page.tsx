@@ -79,10 +79,10 @@ export default function ContactPage() {
               <div className="p-4 bg-blue-50 rounded-xl">
                 <p className="text-sm text-blue-700">
                   <strong>すぐに使い始めたい方へ</strong><br />
-                  お問い合わせ不要で、今すぐ無料トライアルを開始できます。
+                  今すぐ無料トライアルを開始できます。
                 </p>
                 <a
-                  href="https://bizflo27.com/invite/d6f23880-1c4c-4ae7-a331-ce3a1453fbe5"
+                  href="https://lin.ee/PBD6Rh0"
                   className="inline-block mt-3 text-sm font-medium text-blue-600 hover:text-blue-700 underline"
                 >
                   無料で始める →
