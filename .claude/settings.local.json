@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat:*)",
+      "Bash(npm run build:*)",
+      "WebFetch(domain:www.azcreate27.co.jp)",
+      "WebFetch(domain:bizflo27.jp)",
+      "Bash(ls -la \"G:\\\\マイドライブ\\\\GitProjects\\\\BizFrow_\"\" 2>/dev/null || dir \"G:マイドライブGitProjectsBizFrow_\"\")",
+      "Bash(dir /b /s \"G:\\\\マイドライブ\\\\GitProjects\\\\BizFrow_\\\\templates\\\\*.html\")",
+      "Bash(npm install:*)",
+      "WebFetch(domain:docs.bizflo27.jp)",
+      "Bash(dir \"C:\\\\GitLocal\\\\【BizFlo_LP】\\\\app\" /s /b)",
+      "Bash(del \"C:\\\\GitLocal\\\\【BizFlo_LP】\\\\app\\\\legal\\\\page.tsx\")",
+      "WebSearch",
+      "WebFetch(domain:unsplash.com)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nInitial commit: BizFlo LP with casual business image\n\n- Complete Next.js 14 landing page for BizFlo\n- Updated final CTA section image to casual Japanese business meeting style\n- Includes all components, pages, and styling\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git push:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nFix: Add Unsplash remotePatterns for Next.js Image\n\n- Added images.unsplash.com to remotePatterns in next.config.js\n- This fixes the 404 error when using Unsplash images with next/image\n\n🤖 Generated with [Claude Code]\\(https://claude.com/claude-code\\)\n\nCo-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>\nEOF\n\\)\")",
+      "Bash(git commit:*)"
+    ]
+  }
+}
