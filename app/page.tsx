@@ -5,7 +5,6 @@ import { Hero } from "@/components/sections/Hero"
 import { Problems } from "@/components/sections/Problems"
 import { IntegrationMap } from "@/components/sections/IntegrationMap"
 import { Dashboard } from "@/components/sections/Dashboard"
-import { Video } from "@/components/sections/Video"
 import { Features } from "@/components/sections/Features"
 import { UseCases } from "@/components/sections/UseCases"
 import { Testimonials } from "@/components/sections/Testimonials"
@@ -45,7 +44,6 @@ export default function HomePage() {
         <Problems />
         <IntegrationMap />
         <Dashboard />
-        <Video />
         <Features />
         <UseCases />
         <Testimonials />
