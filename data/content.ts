@@ -77,23 +77,23 @@ export const testimonialsContent = {
   testimonials: [
     {
       quote: "月末の締め作業が3日から半日になりました。データがすべてつながっているので、集計の手間がほとんどなくなりましたね。",
-      name: "田中 健一",
+      name: "山田利明(仮)",
       role: "代表取締役",
-      company: "株式会社サンプルテック",
+      company: "株式会社SP",
       image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=200&q=80",
     },
     {
       quote: "営業メンバーの入力負担が減って、本来の営業活動に集中できるようになりました。案件の状況も一目で把握できます。",
-      name: "佐藤 美咲",
+      name: "斉藤美咲(仮)",
       role: "営業部長",
-      company: "株式会社グロースパートナー",
+      company: "株式会社GP",
       image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
     },
     {
       quote: "経理の私としては、仕訳が自動で作られるのが本当に助かっています。入力ミスも減りましたし、チェック作業も楽になりました。",
-      name: "山田 裕子",
+      name: "山田花子(仮)",
       role: "経理担当",
-      company: "有限会社ワークスデザイン",
+      company: "有限会社WD",
       image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
     },
   ],
@@ -199,9 +199,9 @@ export const useCasesContent = {
 
 export const comparisonContent = {
   sectionTitle: "複数ツール運用と、何が違うのか",
-  description: "SFA、会計ソフト、請求ソフト、Excelを組み合わせて使っている場合との比較です。",
+  description: "SFA、会計ソフト、請求ソフト、Excel、名刺管理システムを組み合わせて使っている場合との比較です。",
   axes: [
-    { label: "月額コスト", multiple: "5〜10万円以上になることも", bizflo: "50,000円〜" },
+    { label: "月額コスト", multiple: "8〜10万円以上になることも", bizflo: "50,000円〜" },
     { label: "データの一貫性", multiple: "ツール間で分断、手動連携が必要", bizflo: "すべて自動で連携" },
     { label: "運用の手間", multiple: "ツールごとに設定・運用", bizflo: "ひとつで完結" },
     { label: "経営数字の把握", multiple: "都度集計が必要", bizflo: "リアルタイムで確認" },
@@ -330,7 +330,7 @@ export const faqContent = {
     },
     {
       question: "まずは試してみることはできますか？",
-      answer: "はい、1ヶ月の無料トライアルをご用意しています。実際の業務で使ってみてからご判断ください。クレジットカードの登録も不要です。",
+      answer: "はい、1ヶ月の無料トライアルをご用意しています。実際の業務で使ってみてからご判断ください。",
     },
   ],
 }
@@ -374,11 +374,11 @@ export const videoContent = {
 }
 
 export const footerContent = {
-  company: "ラクレバ Inc.",
+  company: "Self Leverage Inc.",
   links: [
     { label: "プライバシーポリシー", href: "/privacy" },
     { label: "利用規約", href: "/terms" },
     { label: "お問い合わせ", href: "#contact" },
   ],
-  copyright: "© 2024 ラクレバ Inc. All rights reserved.",
+  copyright: "© 2026 Self Leverage Inc. All rights reserved.",
 }
