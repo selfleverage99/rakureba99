@@ -178,24 +178,6 @@ export function ContactForm({ formType = "consultation", onSuccess }: ContactFor
         />
       </div>
 
-      <Button
-        type="submit"
-        className="w-full"
-        size="lg"
-        disabled={isSubmitting}
-      >
-        {isSubmitting ? (
-          <>
-            <Loader2 className="w-4 h-4 mr-2 animate-spin" />
-            送信中...
-          </>
-        ) : formType === "consultation" ? (
-          "導入相談する"
-        ) : (
-          "資料を請求する"
-        )}
-      </Button>
-
       <p className="text-xs text-center text-gray-500">
         送信することで、
         <a href="/privacy" className="text-primary-600 hover:underline">
