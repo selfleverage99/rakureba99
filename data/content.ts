@@ -366,13 +366,6 @@ export const dashboardContent = {
   ],
 }
 
-export const videoContent = {
-  sectionTitle: "ラクレバのご紹介",
-  sectionDescription: "ラクレバのコンセプトと、どんな課題を解決できるかをご紹介します。",
-  videoUrl: "/videos/intro.mp4",
-  videoPlaceholder: "/images/動画サムネ.png",
-}
-
 export const footerContent = {
   company: "Self Leverage Inc.",
   links: [
