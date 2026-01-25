@@ -41,13 +41,7 @@ export function MobileCta() {
           className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white border-t shadow-lg"
         >
           <div className="flex gap-3 p-3">
-            <Button
-              variant="secondary"
-              className="flex-1"
-              onClick={() => handleCtaClick("consultation")}
-            >
-              お問い合わせ
-            </Button>
+            
             <Button
               className="flex-1"
               asChild
