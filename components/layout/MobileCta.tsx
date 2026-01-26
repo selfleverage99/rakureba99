@@ -40,17 +40,7 @@ export function MobileCta() {
           transition={{ type: "spring", stiffness: 300, damping: 30 }}
           className="fixed bottom-0 left-0 right-0 z-50 md:hidden bg-white border-t shadow-lg"
         >
-          <div className="flex gap-3 p-3">
-            
-            <Button
-              className="flex-1"
-              asChild
-            >
-              <a href="https://bizflo27.com/invite/d6f23880-1c4c-4ae7-a331-ce3a1453fbe5" onClick={() => trackCtaClick("register", "mobile_bottom_bar")}>
-                無料で試す
-              </a>
-            </Button>
-          </div>
+
         </motion.div>
       )}
     </AnimatePresence>
