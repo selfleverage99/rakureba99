@@ -15,8 +15,6 @@ export const heroContent = {
     "入力は一度だけ、あとは自動連携",
     "御社の運用に合わせてカスタマイズ",
   ],
-  ctaPrimary: "無料で相談する",
-  ctaSecondary: "資料をダウンロード",
   heroImage: "https://images.unsplash.com/photo-1553877522-43269d4ea984?w=800&q=80",
 }
 
@@ -217,7 +215,7 @@ export const flowContent = {
     {
       step: 1,
       title: "アカウント作成",
-      description: "メールアドレスを登録するだけ。1分で完了します。",
+      description: "公式LINEから申請していただくだけ。",
     },
     {
       step: 2,
@@ -339,7 +337,6 @@ export const finalCtaContent = {
   headline: "まずは、話を聞いてみませんか？",
   description: "御社の状況をお聞かせいただければ、ラクレバが合うかどうか、率直にお伝えします。",
   ctaPrimary: "無料で相談する",
-  ctaSecondary: "資料をダウンロード",
   note: "無理な営業は一切いたしません。",
   image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&q=80",
 }
@@ -368,10 +365,5 @@ export const dashboardContent = {
 
 export const footerContent = {
   company: "Self Leverage Inc.",
-  links: [
-    { label: "プライバシーポリシー", href: "/privacy" },
-    { label: "利用規約", href: "/terms" },
-    { label: "お問い合わせ", href: "#contact" },
-  ],
   copyright: "© 2026 Self Leverage Inc. All rights reserved.",
 }
