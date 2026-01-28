@@ -52,7 +52,6 @@ export default function HomePage() {
         <Trust />
         <Pricing />
         <Faq />
-        <FinalCta />
       </main>
       <Footer />
       <MobileCta />
