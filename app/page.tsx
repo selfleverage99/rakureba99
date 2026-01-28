@@ -14,7 +14,6 @@ import { Flow } from "@/components/sections/Flow"
 import { Trust } from "@/components/sections/Trust"
 import { Pricing } from "@/components/sections/Pricing"
 import { Faq } from "@/components/sections/Faq"
-import { FinalCta } from "@/components/sections/FinalCta"
 import { faqContent } from "@/data/content"
 
 // FAQ用のJSON-LD
