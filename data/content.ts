@@ -333,14 +333,6 @@ export const faqContent = {
   ],
 }
 
-export const finalCtaContent = {
-  headline: "まずは、話を聞いてみませんか？",
-  description: "御社の状況をお聞かせいただければ、ラクレバが合うかどうか、率直にお伝えします。",
-  ctaPrimary: "無料で相談する",
-  note: "無理な営業は一切いたしません。",
-  image: "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=600&q=80",
-}
-
 export const dashboardContent = {
   sectionTitle: "リアルタイムで経営状況を把握",
   sectionDescription: "必要な数字がひと目でわかる。直感的なダッシュボードで、迷わず判断。",
