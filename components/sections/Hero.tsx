@@ -49,28 +49,6 @@ export function Hero() {
               {heroContent.description}
             </p>
 
-            {/* CTA Buttons */}
-            <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button
-                size="lg"
-                asChild
-                className="text-base px-8 h-14 shadow-xl shadow-primary/20"
-              >
-                <a href="https://bizflo27.com/invite/d6f23880-1c4c-4ae7-a331-ce3a1453fbe5" onClick={() => trackCtaClick("register", "hero")}>
-                  無料で試す
-                  <ArrowRight className="w-5 h-5 ml-2" />
-                </a>
-              </Button>
-              <Button
-                size="lg"
-                variant="secondary"
-                onClick={() => handleCtaClick("consultation")}
-                className="text-base px-8 h-14"
-              >
-                お問い合わせ
-              </Button>
-            </div>
-
             {/* Simple trust text */}
             <p className="mt-8 text-sm text-gray-500">
               1ヶ月の無料トライアルあり・最短即日導入可能
