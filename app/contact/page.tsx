@@ -75,31 +75,6 @@ export default function ContactPage() {
                   </div>
                 </CardContent>
               </Card>
-
-              <div className="p-4 bg-blue-50 rounded-xl">
-                <p className="text-sm text-blue-700">
-                  <strong>すぐに使い始めたい方へ</strong><br />
-                  今すぐ無料トライアルを開始できます。
-                </p>
-                <a
-                  href="https://lin.ee/PBD6Rh0"
-                  className="inline-block mt-3 text-sm font-medium text-blue-600 hover:text-blue-700 underline"
-                >
-                  無料で始める →
-                </a>
-              </div>
-            </div>
-
-            {/* Right: Form */}
-            <div className="lg:col-span-2">
-              <Card className="border-gray-100 shadow-lg">
-                <CardContent className="p-8">
-                  <h2 className="text-xl font-semibold text-gray-900 mb-6">
-                    お問い合わせフォーム
-                  </h2>
-                  <ContactForm formType="consultation" />
-                </CardContent>
-              </Card>
             </div>
           </div>
         </div>
