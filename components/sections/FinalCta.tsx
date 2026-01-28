@@ -4,7 +4,6 @@ import Image from "next/image"
 import { motion } from "framer-motion"
 import { Card, CardContent } from "@/components/ui/card"
 import { ContactForm } from "@/components/forms/ContactForm"
-import { finalCtaContent } from "@/data/content"
 
 export function FinalCta() {
   return (
