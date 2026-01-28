@@ -10,18 +10,6 @@ export function Footer() {
               {siteConfig.name}
             </span>
           </div>
-
-          <nav className="flex flex-wrap gap-8">
-            {footerContent.links.map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                className="text-sm hover:text-white transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
-          </nav>
         </div>
 
         <div className="mt-12 pt-8 border-t border-primary-800">
