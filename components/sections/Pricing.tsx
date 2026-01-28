@@ -87,20 +87,6 @@ export function Pricing() {
                       </li>
                     ))}
                   </ul>
-
-                  <Button
-                    className={`w-full group ${plan.isPopular ? 'shadow-lg shadow-primary/20' : ''}`}
-                    variant={plan.isPopular ? "default" : "secondary"}
-                    size="lg"
-                    onClick={() =>
-                      handleCtaClick(
-                        plan.isPopular ? "consultation" : "enterprise_inquiry"
-                      )
-                    }
-                  >
-                    {plan.isPopular ? "導入相談する" : "お問い合わせ"}
-                    <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-1 transition-transform" />
-                  </Button>
                 </CardContent>
               </Card>
             </motion.div>
