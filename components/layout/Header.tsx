@@ -67,25 +67,6 @@ export function Header() {
               FAQ
             </a>
           </nav>
-
-          <div className="flex items-center gap-3">
-            <Button
-              variant="secondary"
-              size="sm"
-              className="hidden sm:inline-flex"
-              onClick={() => handleCtaClick("consultation")}
-            >
-              お問い合わせ
-            </Button>
-            <Button
-              size="sm"
-              asChild
-            >
-              <a href="https://bizflo27.com/invite/d6f23880-1c4c-4ae7-a331-ce3a1453fbe5" onClick={() => trackCtaClick("register", "header")}>
-                無料で試す
-              </a>
-            </Button>
-          </div>
         </div>
       </div>
     </motion.header>
